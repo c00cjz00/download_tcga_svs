@@ -20,4 +20,7 @@ cd download_tcga_svs
 cat download.sh| parallel -j 8
 ```
 
-4. svs file will be save in download_tcga_svs/breast/metadata/svs
+4. svs file will be save in download_tcga_svs/breast/svs
+```
+ls -alt breast/svs
+```
