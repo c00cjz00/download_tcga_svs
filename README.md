@@ -15,7 +15,7 @@ cd download_tcga_svs
 ./create_download_script.sh
 ```
 
-3. Download svs file with parallel
+3. Execute "download.sh" with "parallel -j 8" to download svs file parallelly
 ```
 cat download.sh| parallel -j 8
 ```
