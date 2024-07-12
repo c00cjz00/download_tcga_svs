@@ -9,7 +9,7 @@ sudo apt install parallel wget -y
 git clone https://github.com/c00cjz00/download_tcga_svs.git
 ```
 
-3. Create donwload script
+3. Create download script "download.sh"
 ```
 cd download_tcga_svs
 ./create_download_script.sh
