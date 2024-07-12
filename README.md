@@ -1,7 +1,7 @@
 # Download breast svs file
 1. install parallel
 ```
-sudo apt install parallel -y
+sudo apt install parallel wget -y
 ```
 
 2. Git 
